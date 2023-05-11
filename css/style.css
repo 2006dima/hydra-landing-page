@@ -1,0 +1,39 @@
+body {
+    background: url(../img/webpage-background.png);
+    background-repeat: no-repeat;
+    background-color: rgb(48, 44, 66);
+    background-position: top;
+}
+/* header */
+.header{
+    max-width: 1272px;
+    width: 100%;
+    margin: 0 auto;
+}
+.hd-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.hd-wrapper-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 193px;
+    width: 100%;
+}
+.navbar{
+    max-width: 387px;
+    width: 100%;
+}   
+.logo{
+    max-width: 102px;
+    width: 100%;
+}
+.secondary-logo{
+    max-width: 76px;
+    width: 100%;
+}
+.hamburger-button{
+    display: none;
+}

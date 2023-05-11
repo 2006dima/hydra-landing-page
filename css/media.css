@@ -1,0 +1,12 @@
+@media only screen and (max-width: 1170px) {
+  .navbar {
+    display: none;
+  }
+  .hd-wrapper-2 {
+    display: none;
+  }
+  .hamburger-button{
+    display: block;
+    width: 100rem;
+  }
+}
