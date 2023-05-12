@@ -1,4 +1,11 @@
 @media only screen and (max-width: 1170px) {
+  /* hd-top*/
+  .hd-container-1{
+    justify-content: space-between;
+  }
+  .hd-wrapper-1{
+    justify-content: space-between;
+  }
   .navbar {
     display: none;
   }
@@ -7,6 +14,122 @@
   }
   .hamburger-button{
     display: block;
-    width: 100rem;
+  }
+  /* hd-body */
+  .hd-container-2{
+    flex-direction: column;
+  }
+  .hd-h-1{
+    font-size: 24px;
+  }
+  .hd-span-1{
+    font-size: 36px;
+  }
+  .hd-h-2{
+    font-size: 24px;
+  }
+  .hd-span-2{
+    font-size: 36px;
+  }
+  .hd-p-1{
+    display: none;
+  }
+  .hd-button-3{
+    width: 100%;
+  }
+  .hd-img-1{
+    display: none;
+  }
+  /* hd-leg */
+  .hd-container-3{
+    display: none;
+  }
+  /* section-1  */
+  .section-1-container-1{
+    flex-direction: column;
+  }
+  .section-1-wrapper-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .section-1-h-1{
+    font-size: 26px;
+  }
+  .section-1-h-2{
+    font-size: 26px;  
+  }
+  .section-1-img-1{
+    display: block;
+  }
+  .long-arrow{
+  display: none;
+  }
+  .section-1-img-2{
+    display: none;
+  }
+  .section-1-wrapper-3{
+    align-items: center;
+  }
+  .section-1-h-3{
+    display: none; 
+  }
+  .section-1-h-4{
+    display: none; 
+  }
+
+}
+@media only screen and (max-width: 414px) {
+  /* hd-top */
+  .logo{
+    max-width: 60px;
+    width: 100%;
+  }
+  .secondary-logo{
+    max-width: 50px;
+    width: 100%;
+  }
+  .hamburger-button{
+    max-width: 50px;
+    width: 100%;
+  }
+  /* hd-body */
+  .hd-h-1{
+    font-size: 20px;
+  }
+  .hd-span-1{
+    font-size: 32px;
+  }
+  .hd-h-2{
+    font-size: 20px;
+  }
+  .hd-span-2{
+    font-size: 32px;
+  }
+  .hd-button-3{
+    height: 40px;
+  }
+  /* section-1 body */
+}
+@media only screen and (max-width: 360px){
+  /* hd-body */
+
+}
+@media only screen and (max-width: 220px){
+  .hd-h-1{
+    font-size: 12px;
+  }
+  .hd-span-1{
+    font-size: 24px;
+  }
+  .hd-h-2{
+    font-size: 12px;
+  }
+  .hd-span-2{
+    font-size: 24px;
+  }
+  .hd-button-3{
+    height: 30px;
   }
 }
