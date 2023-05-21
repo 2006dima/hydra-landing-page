@@ -14,6 +14,10 @@
   #section-5-input-3 {
     display: flex;
   }
+  /* section 5 */
+  .s-5-h-1 {
+    margin-top: 95px;
+  }
 }
 @media only screen and (max-width: 1170px) {
   /* hd-top*/

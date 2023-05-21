@@ -377,6 +377,9 @@ body {
     rgba(67, 61, 96, 1) 0%,
     rgba(33, 30, 46, 1) 100%
   );
+  margin-left: 50px;
+  margin-right: 50px;
+
 }
 .card-border-section-2 {
   max-width: 190.92px;
@@ -583,7 +586,7 @@ body {
     rgba(64, 58, 95, 1) 0%,
     rgba(33, 30, 46, 1) 100%
   );
-  height: 1008px;
+  height: 1300px;
 }
 .s-5-wrapper {
   display: flex;
@@ -596,6 +599,7 @@ body {
   word-spacing: 6px;
   color: #ffffff;
   font-size: 36px;
+  margin-bottom: 36px;
 }
 .s-5-hr {
   height: 1px;
@@ -610,6 +614,7 @@ body {
     rgba(52, 48, 69, 1) 100%
   );
   border: none;
+  margin-bottom: 27px;
 }
 .s-5-h-2 {
   font-family: "Montserrat", sans-serif;
@@ -759,6 +764,7 @@ body {
   transform: scale(1.1);
   -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
   transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  transition: 1s;
 }
 .a-wrapper {
   font-family: "Montserrat", sans-serif;
