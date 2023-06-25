@@ -2,4 +2,4 @@
 My first project ever 😉🐱‍👤🙈
 
 
-NOTE: LebronJordana is my first github account.
+NOTE: LebronJordana is my other github account.
